@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "953237387569",
+    "project_id": "travel-tales-xml",
+    "storage_bucket": "travel-tales-xml.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953237387569:android:5af4938358c253f1b45810",
+        "android_client_info": {
+          "package_name": "com.example.travel_tales_xml"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFpiu8gc_LcSsTqEPCKGfZc4G87jo0mVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

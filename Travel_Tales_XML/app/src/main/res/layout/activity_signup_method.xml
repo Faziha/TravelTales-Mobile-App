@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.auth.SignupMethod">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/llGoogleSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/auth_screen_edittext_background"
+            android:gravity="center"
+            android:layout_marginBottom="30dp">
+
+           <ImageView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:src="@drawable/search"
+               android:layout_marginVertical="5dp"
+               android:layout_marginEnd="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up with Google"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginVertical="5dp"
+                android:layout_marginEnd="40dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llEmailSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/auth_screen_edittext_background"
+            android:gravity="center"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/gmail"
+                android:layout_marginVertical="5dp"
+                android:layout_marginEnd="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up with Email"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginVertical="5dp"
+                android:layout_marginEnd="40dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llGuestSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@drawable/auth_screen_edittext_background"
+            android:gravity="center"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/profile_user"
+                android:layout_marginVertical="5dp"
+                android:layout_marginEnd="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continue as a Guest"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginVertical="5dp"
+                android:layout_marginEnd="40dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

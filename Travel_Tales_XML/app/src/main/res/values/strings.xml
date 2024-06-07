@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Travel_Tales_XML</string>
+    <string name="title_activity_home_nav">HomeNav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Add Post</string>
+    <string name="title_notifications">Profile</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ui.dashboard.DashboardFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:id="@+id/authenticated"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+            <Button
+                android:id="@+id/uploadImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Image"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageHolder"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/add_post_edittext_background"
+            android:layout_marginBottom="30dp"
+            />
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:background="@drawable/add_post_edittext_background"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="30dp"
+            android:hint="Give your Tale a Title..." />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:background="@drawable/add_post_edittext_background"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/white"
+            android:hint="Tell us about your Tale..."
+            android:layout_marginBottom="30dp"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/postButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:textColor="@color/white"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="30dp"
+            />
+    </LinearLayout>
+
+    <include layout="@layout/guest_user_lock" />
+</androidx.constraintlayout.widget.ConstraintLayout>
